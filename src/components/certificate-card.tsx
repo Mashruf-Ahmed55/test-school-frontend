@@ -4,7 +4,6 @@ import { Button } from '@/components/ui/button';
 import { Card, CardContent } from '@/components/ui/card';
 
 export function CertificateCard({
-  name = 'Candidate',
   level = 'A1',
 }: {
   name?: string;
