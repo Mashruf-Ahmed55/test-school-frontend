@@ -4,7 +4,7 @@ import { createApi, type BaseQueryFn } from '@reduxjs/toolkit/query/react';
 import axios, { type AxiosError, type AxiosRequestConfig } from 'axios';
 
 export const axiosInstance = axios.create({
-  baseURL: 'http://localhost:3000',
+  baseURL: 'https://test-school-backend-eq1g.onrender.com',
   withCredentials: true,
 });
 
